@@ -5,11 +5,15 @@
 # * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
 # * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
 
-GET http://localhost:8080/h2-console/login.do?jsessionid=69dc2494d41bade5c8d7cbd4240338d8
+GET https://www.devbeginner.com
+
+
+
+GET http://localhost:8080/posts
 
 ###
 
-POST http://localhost:8080/h2-console/login.do?jsessionid=69dc2494d41bade5c8d7cbd4240338d8
+POST http://localhost:8080/posts
 Content-Type: application/json
 
 {
