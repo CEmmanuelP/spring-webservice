@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 @AllArgsConstructor
-public class webController{
+
+public class WebController{
     @GetMapping("/")
     public String main() {
         return "main";

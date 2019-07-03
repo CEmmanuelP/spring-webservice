@@ -29,8 +29,6 @@ public class PostsRepositoryTest {
 
     @Test
     public void 게시글저장_불러오기() {
-        final LocalDateTime createdTime = LocalDateTime.of(2018, 12, 24, 14, 0);
-        final LocalDateTime updateTime = LocalDateTime.of(2018, 12, 25, 14, 0);
         postsRepository.save(Posts.builder()
                 .title("테스트 게시글")
                 .content("테스트 본문")
