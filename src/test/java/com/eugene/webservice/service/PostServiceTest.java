@@ -2,7 +2,7 @@ package com.eugene.webservice.service;
 
 import com.eugene.webservice.domain.posts.Posts;
 import com.eugene.webservice.domain.posts.PostsRepository;
-import com.eugene.webservice.web.PostsSaveRequestDto;
+import com.eugene.webservice.dto.posts.PostsSaveRequestDto;
 import org.junit.Test;
 import org.junit.After;
 import org.junit.runner.RunWith;

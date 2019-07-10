@@ -1,4 +1,4 @@
-package com.eugene.webservice.web;
+package com.eugene.webservice.dto.posts;
 
 import com.eugene.webservice.domain.posts.Posts;
 import lombok.Getter;
